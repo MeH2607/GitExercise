@@ -1,4 +1,3 @@
-
 public class Main {
     public static void main(String[] args) {
 
@@ -6,6 +5,6 @@ public class Main {
         SuperGreeter superGreeter = new SuperGreeter();
         superGreeter.start();
         superGreeter.greet();
-
+        superGreeter.askAboutAge();
     }
 }

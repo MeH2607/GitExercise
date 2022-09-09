@@ -17,4 +17,11 @@ public class SuperGreeter {
         navn = sc.nextLine();
         System.out.println("Hej " + navn);
     }
+
+    public void askAboutAge(){
+        int alder;
+        System.out.println("hvor gammel er du?");
+        alder = sc.nextInt();
+        System.out.println("Du er " + alder + " år!!!");
+    }
 }
