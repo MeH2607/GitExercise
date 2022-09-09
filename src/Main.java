@@ -6,5 +6,6 @@ public class Main {
         superGreeter.start();
         superGreeter.greet();
         superGreeter.askAboutAge();
+        superGreeter.commitMe();
     }
 }

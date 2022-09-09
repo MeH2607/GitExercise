@@ -24,4 +24,8 @@ public class SuperGreeter {
         alder = sc.nextInt();
         System.out.println("Du er " + alder + " år!!!");
     }
+
+    public void commitMe(){
+        System.out.println("Jeg er en ny commit der skal pushes på et tidspunkt");
+    }
 }
